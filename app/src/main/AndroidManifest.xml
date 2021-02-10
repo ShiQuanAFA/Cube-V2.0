@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="conductor2.cubev20">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".Data"
+        android:allowBackup="true"
+        android:icon="@drawable/image_logo_0"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/image_logo_1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity
+            android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Takephoto" />
+        <activity android:name=".Run"/>
+    </application>
+
+</manifest>

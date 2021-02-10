@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CubeV2.0</string>
+    <string name="title_activity_take_photo">TakePhoto</string>
+    <string name="button_name_catch">Catch</string>
+    <string name="button_name_take">Take</string>
+    <string name="button_name_run">Run</string>
+    <string name="button_name_delete">Delete</string>
+    <string name="button_name_exit">Exit</string>
+    <string name="text_1">Result</string>
+    <string name="text_2">计算中\n......</string>
+</resources>
